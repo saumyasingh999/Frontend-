@@ -1,0 +1,11 @@
+<!-- Assignment 9 - Responsive CSS examples - No JS - Semantic HTML5 -->
+/* Responsive-CSS-Cheat-Sheet.css */
+body{font-family:system-ui,Arial;margin:0;padding:1rem;background:#fff}
+.cheats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;max-width:1100px;margin:0 auto}
+.item{padding:1rem;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.05);transition:transform .2s ease,background .2s ease}
+.item:hover{transform:translateY(-6px);background:linear-gradient(135deg,#f0f8ff,#eef6ff)}
+/* stacked rows below 700px */
+@media (max-width:700px){
+  .cheats{grid-template-columns:1fr}
+  .item h3{display:block;margin-bottom:.25rem}
+}

@@ -1,0 +1,9 @@
+<!-- Assignment 9 - Responsive CSS examples - No JS - Semantic HTML5 -->
+/* Responsive-Typography.css */
+body{font-family:system-ui,Arial;margin:0;padding:2rem;display:flex;align-items:center;justify-content:center;min-height:100vh}
+.typography{text-align:center;max-width:900px;padding:1rem}
+.typography h1{font-size:clamp(1.5rem,4vw,3rem);margin:.25rem 0}
+.typography p{font-size:clamp(1rem,2vw,1.5rem);line-height:1.6;margin:0}
+@media (max-width:700px){
+  .typography p{line-height:1.5;padding:.5rem}
+}

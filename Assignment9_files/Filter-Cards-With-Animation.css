@@ -1,0 +1,14 @@
+<!-- Assignment 9 - Responsive CSS examples - No JS - Semantic HTML5 -->
+/* Filter-Cards-With-Animation.css */
+*{box-sizing:border-box}
+body{font-family:system-ui,Arial;margin:0;padding:1.25rem;background:#fafafa}
+.profiles{display:flex;gap:1rem;max-width:1000px;margin:0 auto;animation:fadeIn .8s ease forwards;opacity:0}
+.profile{flex:1;background:#fff;border-radius:10px;overflow:hidden;padding:0;display:flex;flex-direction:column;align-items:stretch;transition:transform .25s ease;box-shadow:0 6px 18px rgba(0,0,0,.06)}
+.profile img{width:100%;height:220px;object-fit:cover;filter:grayscale(100%);transition:filter .3s ease}
+.profile .info{padding:1rem}
+.profile:hover img{filter:none}
+.profile:hover{transform:translateY(-10px)}
+@keyframes fadeIn{to{opacity:1}}
+@media (max-width:800px){
+  .profiles{flex-direction:column}
+}
