@@ -1,0 +1,34 @@
+{
+    "timetable": [
+        {
+            "day": "Monday",
+            "subject": "Maths",
+            "faculty": "Dr. Mehta",
+            "time": "10:00"
+        },
+        {
+            "day": "Tuesday",
+            "subject": "Physics",
+            "faculty": "Dr. Rao",
+            "time": "11:00"
+        },
+        {
+            "day": "Wednesday",
+            "subject": "AI",
+            "faculty": "Dr. Sharma",
+            "time": "09:00"
+        },
+        {
+            "day": "Thursday",
+            "subject": "DBMS",
+            "faculty": "Dr. Gupta",
+            "time": "01:00"
+        },
+        {
+            "day": "Friday",
+            "subject": "IoT",
+            "faculty": "Dr. Singh",
+            "time": "02:00"
+        }
+    ]
+}

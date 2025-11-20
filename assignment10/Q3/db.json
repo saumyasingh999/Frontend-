@@ -1,0 +1,34 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "title": "Complete report",
+            "priority": "High",
+            "completed": false
+        },
+        {
+            "id": 2,
+            "title": "Fix bug",
+            "priority": "Medium",
+            "completed": true
+        },
+        {
+            "id": 3,
+            "title": "Team meeting",
+            "priority": "Low",
+            "completed": false
+        },
+        {
+            "id": 4,
+            "title": "Code review",
+            "priority": "High",
+            "completed": false
+        },
+        {
+            "id": 5,
+            "title": "Testing",
+            "priority": "Medium",
+            "completed": true
+        }
+    ]
+}
